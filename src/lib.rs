@@ -1,3 +1,5 @@
+#![allow(unused)]
+
 use std::{collections::VecDeque, io::{self, Write}};
 use crossterm::{execute, terminal::{ScrollUp, SetSize, size}};
 use std::time::Duration;
